@@ -1,0 +1,13 @@
+{
+  "name": "dcs-app-595b0b63",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'no build'",
+    "start": "echo 'static site'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.0",
+    "react-icons": "latest"
+  }
+}
