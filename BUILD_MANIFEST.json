@@ -1,0 +1,224 @@
+{
+  "brand": {
+    "name": "Haveli Restaurant",
+    "tagline": "A Royal Journey Through the Flavours of India",
+    "industry": "restaurant",
+    "tone": "luxurious"
+  },
+  "archetype": "HOSPITALITY",
+  "design_tokens": {
+    "font_serif": "'Cormorant Garamond', 'Playfair Display', Georgia, serif",
+    "font_sans": "'Inter', 'Poppins', system-ui, -apple-system, sans-serif",
+    "color_bg": "#FBF8F3",
+    "color_surface": "#FFFFFF",
+    "color_text_primary": "#1A1410",
+    "color_text_secondary": "#6B5D52",
+    "color_accent": "#8B6914",
+    "color_accent_dark": "#5C4409",
+    "color_maroon": "#4A1C1C",
+    "color_gold": "#D4AF37",
+    "color_border": "rgba(31,22,17,0.1)",
+    "color_header_bg": "rgba(251,248,243,0.94)",
+    "color_footer_bg": "#1A1410",
+    "radius_sm": "6px",
+    "radius_md": "12px",
+    "radius_lg": "24px",
+    "shadow_sm": "0 2px 8px rgba(31,22,17,0.06)",
+    "shadow_md": "0 12px 36px rgba(31,22,17,0.1)",
+    "shadow_lg": "0 20px 60px rgba(31,22,17,0.15)",
+    "max_content_width": "1280px"
+  },
+  "pages_built": [
+    "index",
+    "about-us",
+    "menu",
+    "specialities",
+    "dining-experience",
+    "gallery",
+    "private-events",
+    "reservations",
+    "testimonials",
+    "contact",
+    "location"
+  ],
+  "header_nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about-us" },
+    { "label": "Menu", "href": "/menu" },
+    { "label": "Specialities", "href": "/specialities" },
+    { "label": "Dining Experience", "href": "/dining-experience" },
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "Private Events", "href": "/private-events" },
+    { "label": "Reservations", "href": "/reservations" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "footer_links": {
+    "section_1_title": "Discover",
+    "section_1_links": [
+      { "label": "Our Story", "href": "/about-us" },
+      { "label": "Menu", "href": "/menu" },
+      { "label": "Specialities", "href": "/specialities" },
+      { "label": "Gallery", "href": "/gallery" }
+    ],
+    "section_2_title": "Experiences",
+    "section_2_links": [
+      { "label": "Dining Experience", "href": "/dining-experience" },
+      { "label": "Private Events", "href": "/private-events" },
+      { "label": "Reservations", "href": "/reservations" },
+      { "label": "Testimonials", "href": "/testimonials" }
+    ],
+    "section_3_title": "Connect",
+    "section_3_links": [
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Location", "href": "/location" },
+      { "label": "Newsletter", "href": "#newsletter" },
+      { "label": "Social Media", "href": "#social" }
+    ],
+    "section_4_title": "Legal",
+    "section_4_links": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" },
+      { "label": "Cancellation Policy", "href": "/cancellation" }
+    ]
+  },
+  "canonical_header_html": "<header class=\"site-header sticky top-0 z-50 bg-color-header-bg backdrop-blur-sm border-b border-color-border\"><div class=\"header-inner max-w-max-content-width mx-auto px-6 py-4 flex items-center justify-between\"><a href=\"/\" class=\"brand text-3xl font-serif font-bold text-color-text-primary tracking-wider\">Haveli</a><nav class=\"primary-nav hidden md:flex gap-8\" aria-label=\"Primary Navigation\"><a href=\"/\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Home</a><a href=\"/about-us\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">About</a><a href=\"/menu\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Menu</a><a href=\"/specialities\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Specialities</a><a href=\"/dining-experience\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Experience</a><a href=\"/gallery\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Gallery</a><a href=\"/private-events\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Events</a><a href=\"/contact\" class=\"nav-link text-color-text-primary hover:text-color-accent transition-colors duration-300\">Contact</a></nav><div class=\"header-actions flex gap-4 items-center\"><a href=\"tel:[PHONE]\" class=\"hidden sm:inline-flex items-center gap-2 text-color-accent hover:text-color-accent-dark transition-colors\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg><span class=\"text-sm font-medium\">Call</span></a><a href=\"/reservations\" class=\"px-6 py-2 bg-color-accent text-white rounded-lg hover:bg-color-accent-dark transition-colors duration-300 font-medium text-sm\">Reserve</a></div></div></header>",
+  "canonical_footer_html": "<footer class=\"site-footer bg-color-footer-bg text-white py-16\"><div class=\"footer-inner max-w-max-content-width mx-auto px-6\"><div class=\"footer-grid grid grid-cols-1 md:grid-cols-4 gap-12 mb-12\"><div class=\"footer-section\"><h3 class=\"font-serif text-xl font-bold mb-6 text-color-gold\">Discover</h3><ul class=\"space-y-3\"><li><a href=\"/about-us\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Our Story</a></li><li><a href=\"/menu\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Menu</a></li><li><a href=\"/specialities\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Specialities</a></li><li><a href=\"/gallery\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Gallery</a></li></ul></div><div class=\"footer-section\"><h3 class=\"font-serif text-xl font-bold mb-6 text-color-gold\">Experiences</h3><ul class=\"space-y-3\"><li><a href=\"/dining-experience\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Dining Experience</a></li><li><a href=\"/private-events\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Private Events</a></li><li><a href=\"/reservations\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Reservations</a></li><li><a href=\"/testimonials\" class=\"text-gray-300 hover:text-color-gold transition-colors\">Testimonials</a></li></ul></div><div class=\"footer-section\"><h3 class=\"font-serif text-xl font-bold mb-6 text-color-gold\">Connect</h3><div class=\"space-y-4\"><p class=\"text-gray-300\"><strong>Hours:</strong><br/>Mon–Thu: 11 AM–11 PM<br/>Fri–Sat: 11 AM–12 AM<br/>Sun: 11 AM–10 PM</p><p class=\"text-gray-300\"><strong>Phone:</strong><br/><a href=\"tel:[PHONE]\" class=\"hover:text-color-gold transition-colors\">[PHONE]</a></p><p class=\"text-gray-300\"><strong>Email:</strong><br/><a href=\"mailto:[EMAIL]\" class=\"hover:text-color-gold transition-colors\">[EMAIL]</a></p></div></div><div class=\"footer-section\"><h3 class=\"font-serif text-xl font-bold mb-6 text-color-gold\">Follow Us</h3><div class=\"flex gap-6 mb-8\"><a href=\"#facebook\" aria-label=\"Facebook\" class=\"w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-color-gold transition-colors\">f</a><a href=\"#instagram\" aria-label=\"Instagram\" class=\"w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-color-gold transition-colors\">📷</a><a href=\"#twitter\" aria-label=\"Twitter\" class=\"w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-color-gold transition-colors\">𝕏</a><a href=\"#whatsapp\" aria-label=\"WhatsApp\" class=\"w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-color-gold transition-colors\">💬</a></div><div class=\"newsletter-signup\"><label for=\"newsletter-email\" class=\"block text-sm font-medium mb-2\">Newsletter</label><input type=\"email\" id=\"newsletter-email\" placeholder=\"Your email\" class=\"w-full px-4 py-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-color-gold outline-none transition-colors\" required/><button type=\"submit\" class=\"mt-2 w-full px-4 py-2 bg-color-gold text-color-text-primary font-medium rounded-lg hover:bg-color-accent transition-colors\">Subscribe</button></div></div></div><div class=\"footer-divider border-t border-gray-700 pt-8 mt-8\"><div class=\"footer-bottom flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400\"><p>&copy; 2026 Haveli Restaurant. All rights reserved.</p><div class=\"footer-legal flex gap-6\"><a href=\"/privacy\" class=\"hover:text-color-gold transition-colors\">Privacy Policy</a><a href=\"/terms\" class=\"hover:text-color-gold transition-colors\">Terms of Service</a><a href=\"/cancellation\" class=\"hover:text-color-gold transition-colors\">Cancellation Policy</a></div></div></div></footer>",
+  "shared_styles": "<style>:root{--font-serif:'Cormorant Garamond','Playfair Display',Georgia,serif;--font-sans:'Inter','Poppins',system-ui,-apple-system,sans-serif;--color-bg:#FBF8F3;--color-surface:#FFFFFF;--color-text-primary:#1A1410;--color-text-secondary:#6B5D52;--color-accent:#8B6914;--color-accent-dark:#5C4409;--color-maroon:#4A1C1C;--color-gold:#D4AF37;--color-border:rgba(31,22,17,0.1);--color-header-bg:rgba(251,248,243,0.94);--color-footer-bg:#1A1410;--radius-sm:6px;--radius-md:12px;--radius-lg:24px;--shadow-sm:0 2px 8px rgba(31,22,17,0.06);--shadow-md:0 12px 36px rgba(31,22,17,0.1);--shadow-lg:0 20px 60px rgba(31,22,17,0.15);--max-width:1280px}*{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-sans);font-size:16px;line-height:1.6;color:var(--color-text-primary);background:var(--color-bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3,h4,h5,h6{font-family:var(--font-serif);font-weight:600;line-height:1.15;letter-spacing:-0.02em;color:var(--color-text-primary)}h1{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.05}h2{font-size:clamp(1.75rem,3.5vw,2.75rem)}h3{font-size:clamp(1.25rem,2vw,1.75rem)}h4{font-size:1.25rem}h5{font-size:1.125rem}h6{font-size:1rem}p{margin-bottom:1rem;color:var(--color-text-secondary)}a{color:var(--color-accent);text-decoration:none;transition:color 0.2s ease}a:hover{color:var(--color-accent-dark)}img{max-width:100%;height:auto;display:block}button{font-family:var(--font-sans);font-size:1rem;border:none;cursor:pointer;transition:all 0.3s ease}button:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}button:active{transform:translateY(0)}input,textarea,select{font-family:var(--font-sans);font-size:1rem;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.75rem;color:var(--color-text-primary);background:var(--color-surface);transition:border-color 0.2s ease}input:focus,textarea:focus,select:focus{outline:none;border-color:var(--color-accent);box-shadow:0 0 0 3px rgba(139,105,20,0.1)}input::placeholder{color:var(--color-text-secondary)}textarea{resize:vertical;min-height:120px}::selection{background-color:var(--color-accent);color:white}.site-header{background-color:var(--color-header-bg);border-bottom:1px solid var(--color-border);backdrop-filter:blur(8px)}.header-inner{display:flex;align-items:center;justify-content:space-between}.brand{font-family:var(--font-serif);font-size:2rem;font-weight:bold;color:var(--color-text-primary);letter-spacing:0.1em}.nav-link{font-size:0.95rem;font-weight:500;color:var(--color-text-secondary);transition:color 0.2s ease}.nav-link:hover{color:var(--color-accent)}.site-footer{background-color:var(--color-footer-bg);color:white;margin-top:4rem}.footer-inner{max-width:var(--max-width);margin:0 auto}.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:3rem}.footer-section h3{color:var(--color-gold);font-size:1.25rem;margin-bottom:1.5rem}.footer-section a{color:rgba(255,255,255,0.7);transition:color 0.2s ease}.footer-section a:hover{color:var(--color-gold)}.fade-in{opacity:0;transform:translateY(20px);animation:fadeIn 0.6s ease forwards}@keyframes fadeIn{to{opacity:1;transform:translateY(0)}}.hover-lift{transition:transform 0.2s ease,box-shadow 0.2s ease}.hover-lift:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}@media(max-width:768px){.container{padding:0 1rem}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}}</style>",
+  "image_strategy": {
+    "source": "unsplash",
+    "keywords": [
+      "Indian cuisine",
+      "traditional Indian food",
+      "restaurant ambiance",
+      "haveli architecture",
+      "Indian spices"
+    ],
+    "fallback_color": "#FBF8F3"
+  },
+  "page_constraints": {
+    "max_sections_default": 4,
+    "max_words_default": 500,
+    "specific_overrides": {
+      "index": {
+        "max_sections": 6,
+        "max_words": 800,
+        "required_sections": [
+          "hero",
+          "story-intro",
+          "featured-menu",
+          "reservations-cta",
+          "testimonials",
+          "newsletter"
+        ]
+      },
+      "about-us": {
+        "max_sections": 5,
+        "max_words": 900,
+        "required_sections": [
+          "story-header",
+          "philosophy",
+          "sourcing",
+          "team",
+          "legacy"
+        ]
+      },
+      "menu": {
+        "max_sections": 2,
+        "max_words": 1200,
+        "required_sections": [
+          "menu-filter",
+          "menu-grid"
+        ]
+      },
+      "specialities": {
+        "max_sections": 4,
+        "max_words": 700,
+        "required_sections": [
+          "signature-hero",
+          "signature-grid",
+          "heritage-narrative",
+          "cta"
+        ]
+      },
+      "dining-experience": {
+        "max_sections": 4,
+        "max_words": 600,
+        "required_sections": [
+          "ambiance",
+          "private-dining",
+          "events-info",
+          "cta"
+        ]
+      },
+      "gallery": {
+        "max_sections": 3,
+        "max_words": 300,
+        "required_sections": [
+          "gallery-header",
+          "photo-grid",
+          "cta"
+        ]
+      },
+      "private-events": {
+        "max_sections": 4,
+        "max_words": 700,
+        "required_sections": [
+          "events-hero",
+          "event-types",
+          "pricing-tiers",
+          "enquiry-form"
+        ]
+      },
+      "reservations": {
+        "max_sections": 2,
+        "max_words": 400,
+        "required_sections": [
+          "reservation-form",
+          "info-section"
+        ]
+      },
+      "testimonials": {
+        "max_sections": 3,
+        "max_words": 500,
+        "required_sections": [
+          "testimonials-header",
+          "reviews-grid",
+          "cta"
+        ]
+      },
+      "contact": {
+        "max_sections": 3,
+        "max_words": 400,
+        "required_sections": [
+          "contact-form",
+          "contact-details",
+          "social"
+        ]
+      },
+      "location": {
+        "max_sections": 3,
+        "max_words": 350,
+        "required_sections": [
+          "map-section",
+          "address-details",
+          "hours-table"
+        ]
+      }
+    }
+  },
+  "user_provided": {
+    "name": null,
+    "email": null,
+    "phone": null,
+    "location": null,
+    "social_handles": null
+  },
+  "social_urls": {
+    "facebook": null,
+    "instagram": null,
+    "twitter": null,
+    "linkedin": null,
+    "youtube": null,
+    "pinterest": null
+  }
+}

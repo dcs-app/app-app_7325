@@ -1,0 +1,210 @@
+/* ------------------------------------------------------------------
+   Global styles – mobile‑first enhancements
+   ------------------------------------------------------------------ */
+
+/* Ensure pull‑to‑refresh works on touch devices */
+@media (pointer: coarse) {
+  html {
+    touch-action: pan-y;
+  }
+}
+
+/* Prevent horizontal scrolling on any viewport */
+body {
+  overflow-x: hidden;
+}
+
+/* Overscroll behavior for native pull‑to‑refresh */
+html {
+  overscroll-behavior: contain;
+}
+
+/* Minimum tap‑target size for accessibility (44 × 44 px) */
+button,
+a,
+.nav-link,
+.bottom-nav a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Images stay within their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth scrolling for anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Additional mobile breakpoints */
+@media (max-width: 375px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Bottom navigation touch‑friendly layout */
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Existing design tokens (copied from BUILD_MANIFEST.json) */
+:root {
+  --font-serif: 'Cormorant Garamond','Playfair Display',Georgia,serif;
+  --font-sans: 'Inter','Poppins',system-ui,-apple-system,sans-serif;
+  --color-bg: #FBF8F3;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #1A1410;
+  --color-text-secondary: #6B5D52;
+  --color-accent: #8B6914;
+  --color-accent-dark: #5C4409;
+  --color-maroon: #4A1C1C;
+  --color-gold: #D4AF37;
+  --color-border: rgba(31,22,17,0.1);
+  --color-header-bg: rgba(251,248,243,0.94);
+  --color-footer-bg: #1A1410;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 2px 8px rgba(31,22,17,0.06);
+  --shadow-md: 0 12px 36px rgba(31,22,17,0.1);
+  --shadow-lg: 0 20px 60px rgba(31,22,17,0.15);
+  --max-width: 1280px;
+}
+
+/* Base typography */
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+h1 {
+  font-size: clamp(2.5rem,5vw,4.5rem);
+  line-height: 1.05;
+}
+h2 {
+  font-size: clamp(1.75rem,3.5vw,2.75rem);
+}
+h3 {
+  font-size: clamp(1.25rem,2vw,1.75rem);
+}
+
+/* Links */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: var(--color-accent-dark);
+}
+
+/* Buttons */
+button {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+button:active {
+  transform: translateY(0);
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+  transition: border-color 0.2s ease;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(139,105,20,0.1);
+}
+
+/* Utility classes */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Fade‑in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Respect reduced‑motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ------------------------------------------------------------------
+   End of global styles
+   ------------------------------------------------------------------ */
